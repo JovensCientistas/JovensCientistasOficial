@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/*
+   borda - box-shadow: 1px 2px 2px 2px var(--cor5);
+  Em HTML e `id´ } Em CSS e ´#´
+  Em HTML e `class´ } Em CSS e `.´
+
+ linha 10 = copiar e colar para fazer cometario mais rapido
+ padding = largura
+ marding= altura
+
+     Nessa parte do nosso site adicionamos a parte <br>
+    da Biblioteca, para as pessoas tenham um local <br>
+    onde procurar sobre robôtica, aqui temos "livros", <br>
+    para entender melhor sobre o assunto! <br>
+    Enfim aproveite a nossa biblioteca e faça silêncio!
+
+*/ 
+
+ /**/
+
+ :root{
+    --cor0: #e6ffff;
+    --cor1: #a9ffff;
+    --cor2: #23EAE9;
+    --cor3: #2eb2ff;
+    --cor4: #02199b;
+    --cor5: #000000;
+    
+    --fonte-padrao: normal 25px Arial;
+}
+
+body{
+    font-family: Nerko One, Arial;    
+}
+
+
+main{
+margin: auto;
+background-color: #dcffff;
+border-radius: 10px;
+padding: 100px;
+margin: 200px;
+}
+
+h2#i1{
+    background-color: var(--cor1);
+    font-size: 335px;
+    text-align: center;
+}
+
+     /*Título 1*/
+ div > img#t1{
+    display: flex;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(233, 255, 255);
+    border-radius: 50px;
+  }
+
+  div#t1{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+div#t1 > h1{
+  font-size: 40px;
+  background-color: rgb(146, 255, 255);
+  border-radius: 50px;
+}
+
+div#bl1{
+  margin: auto;
+  text-align: center;
+  background-color: var(--cor1);
+  border-radius: 30px;
+}
+
+div > nav{
+  background-color: var(--cor1);
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+div > nav > a{
+  color: #000000;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: .7s;
+}
+
+div > nav > a:hover{
+  background-color: #23EAE9;
+  border-radius: 150px;
+}
+
+
+    /*Ródape*/
+footer{
+    background-image: linear-gradient(90deg, var(--cor3), var(--cor1));
+    text-align: center;
+    border-radius: 100px;
+    padding: 2px;
+    margin: 5px;
+}
